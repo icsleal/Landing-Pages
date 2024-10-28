@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   text-align: right;
-  padding-left: 40rem;
+  padding-left: 10rem;
 }
 #page-wrapper {
   position: relative;
@@ -27,10 +27,9 @@ body {
 
 nav > ul {
   list-style: none;
-  width: 35vw;
+  width: 33rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: right;
 }
 a {
   text-decoration: none;
@@ -136,8 +135,8 @@ iframe {
 .btn {
   background-color: #075ba1;
   border: 0 solid;
-  padding-top: 3px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   cursor: pointer;
   margin-left: 9px;
   margin-right: 9px;
