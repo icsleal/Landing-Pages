@@ -172,3 +172,128 @@ span {
   margin-top: 15px;
   margin-left: 30px;
 }
+@media screen and (max-width: 400px) {
+  #hero h2 {
+    color: #1ab8df;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #header {
+    background-color: #075ba1;
+    position: fixed;
+    min-height: 9px;
+    top: 0;
+    display: table-column;
+    padding-left: 1rem;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #header-img {
+    width: 300px;
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav > ul {
+    list-style: none;
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6px;
+  }
+  a {
+    text-decoration: none;
+    color: #1ab8df;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid {
+    display: flex;
+    padding-top: 20px;
+  }
+  .icon {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #How-it-works {
+    padding-top: 10rem;
+    display: flex;
+    position: static;
+    justify-content: center;
+  }
+
+  iframe {
+    width: 30rem;
+    height: 10rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #pricing {
+    display: flex;
+    position: relative;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 19px;
+    padding-top: 40px;
+  }
+
+  .product {
+    border: 1px solid #075ba1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1px;
+    padding-bottom: 31px;
+  }
+
+  .product .level {
+    background-color: #075ba1;
+    width: 120px;
+    padding: 6px 0;
+    color: white;
+  }
+  .btn {
+    background-color: #075ba1;
+    border: 0 solid;
+    padding-top: 8px;
+    cursor: pointer;
+    margin-bottom: -2rem;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 400px) {
+  #feacture {
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  li a {
+    margin-right: 17px;
+  }
+
+  li {
+    list-style: none;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  span {
+    margin-top: 15px;
+    padding-right: 44px;
+  }
+}
